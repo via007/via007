@@ -1,0 +1,66 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#102A37"/>
+    </linearGradient>
+    <linearGradient id="line" x1="150" y1="0" x2="1070" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.42"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="34" fill="url(#grid)"/>
+  <path d="M0 285C176 232 292 340 454 286C624 229 692 107 878 138C1023 162 1116 98 1280 58" stroke="url(#line)" stroke-width="3" stroke-opacity="0.8"/>
+  <path d="M0 316C202 263 342 321 512 276C700 226 772 194 934 220C1086 244 1167 196 1280 164" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.32"/>
+
+  <g opacity="0.8">
+    <rect x="84" y="72" width="162" height="44" rx="22" fill="#0B1220" stroke="#38BDF8" stroke-opacity="0.32"/>
+    <text x="165" y="100" text-anchor="middle" fill="#BAE6FD" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">LOCAL-FIRST</text>
+    <rect x="1044" y="248" width="152" height="44" rx="22" fill="#0B1220" stroke="#22C55E" stroke-opacity="0.32"/>
+    <text x="1120" y="276" text-anchor="middle" fill="#BBF7D0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">TRACEABLE</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="130" width="462" height="136" rx="24" fill="#0B1220" fill-opacity="0.84" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="126" y="184" fill="#F8FAFC" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="1">via</text>
+    <text x="127" y="222" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">AI Knowledge Systems</text>
+    <text x="127" y="249" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">RAG / ASR / Vector Search / Notes</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="640" y="86" width="150" height="64" rx="18" fill="#0F2137" stroke="#38BDF8" stroke-opacity="0.34"/>
+    <text x="715" y="124" text-anchor="middle" fill="#E0F2FE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">Favorites</text>
+
+    <rect x="830" y="86" width="150" height="64" rx="18" fill="#112A2A" stroke="#22C55E" stroke-opacity="0.34"/>
+    <text x="905" y="124" text-anchor="middle" fill="#DCFCE7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">ASR</text>
+
+    <rect x="1020" y="86" width="150" height="64" rx="18" fill="#2B2113" stroke="#F59E0B" stroke-opacity="0.34"/>
+    <text x="1095" y="124" text-anchor="middle" fill="#FEF3C7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">Notes</text>
+
+    <path d="M790 118H830" stroke="#64748B" stroke-width="2"/>
+    <path d="M980 118H1020" stroke="#64748B" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="640" y="200" width="530" height="78" rx="22" fill="#0B1220" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="672" y="232" fill="#F8FAFC" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="750">Build knowledge products, not just demos.</text>
+    <text x="672" y="260" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">Bilibili favorites -&gt; searchable memory -&gt; source-grounded chat</text>
+  </g>
+
+  <g opacity="0.7">
+    <path d="M1170 34H1218C1231.25 34 1242 44.7452 1242 58V106" stroke="#38BDF8" stroke-opacity="0.42" stroke-width="2"/>
+    <path d="M38 254V302C38 315.255 48.7452 326 62 326H120" stroke="#22C55E" stroke-opacity="0.42" stroke-width="2"/>
+    <rect x="1152" y="52" width="16" height="16" rx="4" fill="#38BDF8" fill-opacity="0.75"/>
+    <rect x="126" y="306" width="16" height="16" rx="4" fill="#22C55E" fill-opacity="0.75"/>
+  </g>
+</svg>

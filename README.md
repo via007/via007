@@ -1,43 +1,51 @@
 <div align="center">
 
-# via
+<img src="./assets/knowledge-systems-banner.svg" alt="via - AI Knowledge Systems">
+
+<br>
+
+<a href="https://github.com/via007/bilibili-rag">
+  <img alt="Bilibili RAG" src="https://img.shields.io/badge/Featured-Bilibili%20RAG-1677ff?style=for-the-badge">
+</a>
+<a href="https://github.com/via007/bilibili-rag/stargazers">
+  <img alt="Bilibili RAG stars" src="https://img.shields.io/github/stars/via007/bilibili-rag?style=for-the-badge&logo=github&color=22c55e">
+</a>
+<a href="https://github.com/via007?tab=repositories">
+  <img alt="Open source projects" src="https://img.shields.io/badge/Open%20Source-Projects-f97316?style=for-the-badge">
+</a>
+<a href="mailto:he_via@163.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-he__via%40163.com-7c3aed?style=for-the-badge">
+</a>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2600&pause=700&color=2563EB&center=true&vCenter=true&width=880&lines=Building+AI+tools+for+personal+knowledge+systems;Turning+Bilibili+favorites+into+RAG+knowledge+bases;ASR+%2B+Vector+Search+%2B+Source-traceable+Chat;Local-first+tools+that+turn+content+into+knowledge" alt="Typing introduction">
+
+<br>
 
 **AI / RAG / 个人知识系统 / 开源工具**<br>
-**Building AI tools for personal knowledge systems**
-
 把视频、文档和零散信息整理成可检索、可追溯、可复用的知识库。<br>
 Turning videos, documents, and scattered notes into searchable, traceable, reusable knowledge bases.
-
-<p>
-  <a href="https://github.com/via007/bilibili-rag">
-    <img alt="Bilibili RAG" src="https://img.shields.io/badge/Featured-Bilibili%20RAG-1677ff?style=for-the-badge">
-  </a>
-  <a href="https://github.com/via007/bilibili-rag/stargazers">
-    <img alt="Bilibili RAG stars" src="https://img.shields.io/github/stars/via007/bilibili-rag?style=for-the-badge&logo=github&color=22c55e">
-  </a>
-  <a href="https://github.com/via007?tab=repositories">
-    <img alt="Open source projects" src="https://img.shields.io/badge/Open%20Source-Projects-f97316?style=for-the-badge">
-  </a>
-  <a href="mailto:he_via@163.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-he__via%40163.com-7c3aed?style=for-the-badge">
-  </a>
-</p>
 
 </div>
 
 ---
 
-## 主项目 | Featured Project
+## 主项目 | Featured Product
 
 <table>
   <tr>
-    <td width="52%">
+    <td width="50%">
       <h3><a href="https://github.com/via007/bilibili-rag">Bilibili RAG</a></h3>
       <p>
         把 B 站收藏夹变成可对话、可检索、可导出笔记的个人知识库。
       </p>
       <p>
         Turn Bilibili favorite folders into a searchable, source-traceable personal knowledge base with RAG chat and Markdown export.
+      </p>
+      <p>
+        <strong>适合：</strong>课程、访谈、演讲、播客式视频、技术学习资料。<br>
+        <strong>Best for:</strong> courses, interviews, talks, podcast-style videos, and technical learning archives.
       </p>
       <p>
         <a href="https://github.com/via007/bilibili-rag/blob/main/README.md">中文 README</a>
@@ -47,17 +55,32 @@ Turning videos, documents, and scattered notes into searchable, traceable, reusa
         <a href="https://github.com/via007/bilibili-rag">Repository</a>
       </p>
     </td>
-    <td width="48%">
-      <strong>Core flow</strong>
-      <br>
-      Bilibili favorites -> ASR -> Embeddings -> Retrieval -> RAG Chat -> Markdown Notes
-      <br><br>
-      <strong>关键词 | Keywords</strong>
-      <br>
-      RAG, ASR, ChromaDB, FastAPI, Next.js, DashScope, personal knowledge base
+    <td width="50%">
+      <table>
+        <tr>
+          <td><strong>Input</strong></td>
+          <td>Bilibili favorites / videos</td>
+        </tr>
+        <tr>
+          <td><strong>Pipeline</strong></td>
+          <td>ASR -> Embedding -> Retrieval -> RAG</td>
+        </tr>
+        <tr>
+          <td><strong>Output</strong></td>
+          <td>Traceable answers + Markdown notes</td>
+        </tr>
+        <tr>
+          <td><strong>Stack</strong></td>
+          <td>FastAPI, Next.js, ChromaDB, SQLite, Docker</td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
+
+## 工作流 | Workflow
+
+<img src="./assets/rag-flow.svg" alt="Bilibili RAG workflow">
 
 ## 产品截图 | Product Screenshots
 

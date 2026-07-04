@@ -1,0 +1,75 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF6F8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="0" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="0.5" stop-color="#059669"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-20%" width="120%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="300" rx="28" fill="url(#panel)"/>
+  <path d="M80 65H1200" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="6 8"/>
+  <path d="M80 235H1200" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="6 8"/>
+  <text x="80" y="48" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800">Bilibili RAG workflow</text>
+  <text x="80" y="274" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">A local-first pipeline for turning saved videos into reusable knowledge assets.</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <text x="155" y="128" text-anchor="middle" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">01</text>
+    <text x="155" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">Favorites</text>
+    <text x="155" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">folder sync</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="280" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#DCFCE7"/>
+    <text x="355" y="128" text-anchor="middle" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">02</text>
+    <text x="355" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">ASR</text>
+    <text x="355" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">multi-part video</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="480" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#E0E7FF"/>
+    <text x="555" y="128" text-anchor="middle" fill="#4F46E5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">03</text>
+    <text x="555" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">Embedding</text>
+    <text x="555" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">chunks + vectors</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="680" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#FEF3C7"/>
+    <text x="755" y="128" text-anchor="middle" fill="#B45309" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">04</text>
+    <text x="755" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">Retrieval</text>
+    <text x="755" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">hybrid + MMR</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="880" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#CCFBF1"/>
+    <text x="955" y="128" text-anchor="middle" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">05</text>
+    <text x="955" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">Chat</text>
+    <text x="955" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">source grounded</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="1080" y="96" width="150" height="92" rx="18" fill="#FFFFFF" stroke="#FED7AA"/>
+    <text x="1155" y="128" text-anchor="middle" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="800">06</text>
+    <text x="1155" y="154" text-anchor="middle" fill="#0F172A" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="750">Notes</text>
+    <text x="1155" y="176" text-anchor="middle" fill="#64748B" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Markdown export</text>
+  </g>
+
+  <path d="M230 142H280" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M430 142H480" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M630 142H680" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M830 142H880" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M1030 142H1080" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M270 132L280 142L270 152" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 132L480 142L470 152" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M670 132L680 142L670 152" stroke="#4F46E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M870 132L880 142L870 152" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1070 132L1080 142L1070 152" stroke="#0F766E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
