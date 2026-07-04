@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/knowledge-systems-banner.svg" alt="via - AI Knowledge Systems">
+<img src="./assets/profile-hero.png" alt="AI personal knowledge systems hero image">
 
 <br>
 
