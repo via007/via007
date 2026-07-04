@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.png" alt="AI personal knowledge systems hero image">
+<img src="./assets/profile-showcase.svg" alt="via profile showcase - Bilibili RAG and AI knowledge systems">
 
 <br>
 
