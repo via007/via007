@@ -2,19 +2,24 @@
 
 # via
 
-**Building AI tools for personal knowledge systems.**
+**AI / RAG / 个人知识系统 / 开源工具**<br>
+**Building AI tools for personal knowledge systems**
 
-RAG pipelines | LLM apps | content intelligence | practical open-source tools
+把视频、文档和零散信息整理成可检索、可追溯、可复用的知识库。<br>
+Turning videos, documents, and scattered notes into searchable, traceable, reusable knowledge bases.
 
 <p>
   <a href="https://github.com/via007/bilibili-rag">
     <img alt="Bilibili RAG" src="https://img.shields.io/badge/Featured-Bilibili%20RAG-1677ff?style=for-the-badge">
   </a>
-  <a href="https://github.com/via007?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Open%20Source-Projects-22c55e?style=for-the-badge">
+  <a href="https://github.com/via007/bilibili-rag/stargazers">
+    <img alt="Bilibili RAG stars" src="https://img.shields.io/github/stars/via007/bilibili-rag?style=for-the-badge&logo=github&color=22c55e">
   </a>
-  <a href="https://github.com/via007">
-    <img alt="Location" src="https://img.shields.io/badge/Shanghai-China-f97316?style=for-the-badge">
+  <a href="https://github.com/via007?tab=repositories">
+    <img alt="Open source projects" src="https://img.shields.io/badge/Open%20Source-Projects-f97316?style=for-the-badge">
+  </a>
+  <a href="mailto:he_via@163.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-he__via%40163.com-7c3aed?style=for-the-badge">
   </a>
 </p>
 
@@ -22,55 +27,79 @@ RAG pipelines | LLM apps | content intelligence | practical open-source tools
 
 ---
 
-## Focus
-
-- Turning saved videos, documents, and scattered notes into searchable knowledge bases.
-- Building practical RAG systems: ingestion, ASR, chunking, embeddings, retrieval, source attribution, and chat UX.
-- Shipping local-first AI products with Python, FastAPI, Next.js, Docker, SQLite, and ChromaDB.
-- Improving Chinese content workflows with LLMs, structured notes, and reusable automation.
-
-## Featured Project
+## 主项目 | Featured Project
 
 <table>
   <tr>
-    <td width="58%">
+    <td width="52%">
       <h3><a href="https://github.com/via007/bilibili-rag">Bilibili RAG</a></h3>
       <p>
-        Turn Bilibili favorite folders into a searchable, source-traceable personal knowledge base.
+        把 B 站收藏夹变成可对话、可检索、可导出笔记的个人知识库。
       </p>
-      <ul>
-        <li>Sync Bilibili favorites and ingest video content.</li>
-        <li>Transcribe audio with ASR and support multi-part videos.</li>
-        <li>Use vector retrieval and RAG chat with traceable sources.</li>
-        <li>Export raw transcripts or AI-organized Markdown notes.</li>
-        <li>Run locally with FastAPI, Next.js, SQLite, ChromaDB, and Docker Compose.</li>
-      </ul>
       <p>
-        <a href="https://github.com/via007/bilibili-rag">Repository</a>
+        Turn Bilibili favorite folders into a searchable, source-traceable personal knowledge base with RAG chat and Markdown export.
+      </p>
+      <p>
+        <a href="https://github.com/via007/bilibili-rag/blob/main/README.md">中文 README</a>
         |
         <a href="https://github.com/via007/bilibili-rag/blob/main/README_EN.md">English README</a>
         |
-        <a href="https://github.com/via007/bilibili-rag/blob/main/README.md">Chinese README</a>
+        <a href="https://github.com/via007/bilibili-rag">Repository</a>
       </p>
     </td>
-    <td width="42%">
-      <a href="https://github.com/via007/bilibili-rag">
-        <img alt="Bilibili RAG repository card" src="https://github-readme-stats.vercel.app/api/pin/?username=via007&repo=bilibili-rag&theme=transparent&hide_border=true">
-      </a>
+    <td width="48%">
+      <strong>Core flow</strong>
+      <br>
+      Bilibili favorites -> ASR -> Embeddings -> Retrieval -> RAG Chat -> Markdown Notes
+      <br><br>
+      <strong>关键词 | Keywords</strong>
+      <br>
+      RAG, ASR, ChromaDB, FastAPI, Next.js, DashScope, personal knowledge base
     </td>
   </tr>
 </table>
 
-## Selected Work
+## 产品截图 | Product Screenshots
 
-| Project | What it is | Stack |
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/via007/bilibili-rag">
+        <img src="./assets/bilibili-rag-home.png" alt="Bilibili RAG home screenshot">
+      </a>
+      <br>
+      <sub>收藏夹同步与知识库入口 | Favorite-folder sync and knowledge-base entry</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/via007/bilibili-rag">
+        <img src="./assets/bilibili-rag-chat.png" alt="Bilibili RAG chat screenshot">
+      </a>
+      <br>
+      <sub>可追溯来源的 RAG 对话 | Source-traceable RAG chat</sub>
+    </td>
+  </tr>
+</table>
+
+## 我关注什么 | What I Build
+
+| 方向 | 中文 | English |
 | --- | --- | --- |
-| [bilibili-rag](https://github.com/via007/bilibili-rag) | Bilibili favorites to RAG knowledge base | Python, FastAPI, Next.js, ChromaDB |
-| [graphrag-Chinese-llm](https://github.com/via007/graphrag-Chinese-llm) | Chinese-optimized GraphRAG exploration | Python, RAG, LLM |
-| [pandas-ai-excel](https://github.com/via007/pandas-ai-excel) | AI-assisted spreadsheet analysis workflow | Python, Pandas |
-| [electrical-ai-fault-diagnosis](https://github.com/via007/electrical-ai-fault-diagnosis) | AI fault diagnosis and repair suggestion system | Python, AI apps |
+| RAG | 检索、召回、重排、来源追溯 | Retrieval, recall, reranking, source attribution |
+| 个人知识库 | 视频、文档、笔记入库与复用 | Video, document, and note ingestion |
+| LLM 应用 | 面向真实工作流的 AI 工具 | Practical AI apps for real workflows |
+| 本地优先 | 可本地运行、可检查、可部署 | Local-first, inspectable, deployable tools |
+| 中文内容智能 | 长视频、课程、访谈整理 | Chinese long-form video and learning-content workflows |
 
-## Toolkit
+## 精选项目 | Selected Work
+
+| Project | 中文说明 | English |
+| --- | --- | --- |
+| [bilibili-rag](https://github.com/via007/bilibili-rag) | B 站收藏夹 RAG 知识库 | Bilibili favorites to RAG knowledge base |
+| [graphrag-Chinese-llm](https://github.com/via007/graphrag-Chinese-llm) | GraphRAG 中文优化探索 | Chinese-oriented GraphRAG exploration |
+| [pandas-ai-excel](https://github.com/via007/pandas-ai-excel) | AI 辅助 Excel / 表格分析 | AI-assisted spreadsheet analysis |
+| [electrical-ai-fault-diagnosis](https://github.com/via007/electrical-ai-fault-diagnosis) | 电气设备故障诊断与维修建议 | AI fault diagnosis and repair suggestions |
+
+## 技术栈 | Toolkit
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -85,22 +114,38 @@ RAG pipelines | LLM apps | content intelligence | practical open-source tools
   <img alt="LLM Apps" src="https://img.shields.io/badge/LLM%20Apps-7C3AED?style=flat-square">
 </p>
 
-## Current Interests
+| Backend | AI / RAG | Frontend | Data / Infra |
+| --- | --- | --- | --- |
+| Python | LangChain | Next.js | SQLite |
+| FastAPI | ChromaDB | TypeScript | Docker |
+| AsyncIO | Embeddings | React | Local deployment |
+| Uvicorn | ASR | Tailwind CSS | GitHub Actions |
 
-- Better retrieval quality for real personal content libraries.
-- Clear source attribution in RAG answers.
-- Local-first AI tools that are easy to run and easy to trust.
-- Turning long-form Chinese video content into structured, reusable notes.
+## 最近关注 | Current Interests
 
-## GitHub
+- 如何让个人收藏、课程、访谈、播客不再吃灰
+- 如何提升真实内容库里的 RAG 召回质量
+- 如何让 AI 回答保留清晰来源，而不是只给结论
+- 如何把长视频内容整理成可复习、可导出、可二次利用的笔记
 
-<p>
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=via007&show_icons=true&theme=transparent&hide_border=true&rank_icon=github">
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=via007&layout=compact&theme=transparent&hide_border=true">
-</p>
+Current interests:
+
+- Making saved content useful again
+- Improving retrieval quality for real personal content libraries
+- Keeping RAG answers grounded with clear source attribution
+- Turning long-form videos into reusable notes and knowledge assets
+
+## 联系 | Contact
+
+- GitHub: [@via007](https://github.com/via007)
+- Email: `he_via@163.com`
+- Location: Shanghai, China
 
 ---
 
-<p align="center">
-  Building useful AI systems around knowledge, retrieval, and everyday workflows.
-</p>
+<div align="center">
+
+**把内容变成知识，把知识变成可行动的工具。**<br>
+Turning content into knowledge, and knowledge into useful tools.
+
+</div>
